@@ -1,0 +1,64 @@
+body{
+  font-family: 'Roboto Slab', serif;
+  margin: 0;
+}
+.hero-section{
+  background: url(../img/background-image1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  color: #fff;
+  
+}
+
+.nav-area{
+  display: flex;
+  /* background: blanchedalmond; */
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.logo-area{
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu-area{
+  width: 50%;
+}
+.menu-area ul{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.menu-area li{
+  list-style: none;
+}
+.menu-area li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 0 30px;
+}
+.content-area{
+  padding: 120px 50px;
+}
+
+.content-area h2{
+  font-size: 50px;
+
+}
+.content-area h3{
+  font-size: 30px;
+  margin-top: 0;
+}
+.btn{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  padding: 10px 30px;
+  background: black;
+  color: #fff;
+  display: inline-block;
+  margin: 30px 0;
+  
+}
