@@ -38,6 +38,7 @@ body{
   text-decoration: none;
   color: #fff;
   padding: 0 30px;
+  text-transform: uppercase;
 }
 .content-area{
   padding: 120px 50px;
