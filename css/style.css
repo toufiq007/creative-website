@@ -83,6 +83,58 @@ body{
   padding: 30px 50px;
   margin-top: 50px;
   border: 1px solid blanchedalmond;
-  box-shadow: 0px 0px 10px gray;
+  box-shadow: 0px 0px 20px gray;
   border-radius: 3px;
+  background: #fff;
+}
+
+
+.skill-section{
+  height: 100vh;
+}
+.skill-section > h2{
+  margin-top: 20px;
+}
+.main-section{
+  display: flex;
+  justify-content: space-evenly;
+}
+.main-section .left-section, .right-section {
+  width: 600px;
+}
+.skill-section li{
+  list-style: none;
+  margin: 30px 0;
+}
+
+.bar {
+  display: block;
+  background: white;
+  border: 1px solid black;
+  height: 5px;
+  overflow: hidden;
+  margin: 20px 0;
+  border-radius: 3px;
+  box-shadow: 0px 0px 10px gray;
+}
+.bar span{
+  float: left;
+  background: #000;
+  height: 5px;
+
+}
+.html{
+  width: 90%;
+}
+.css{
+  width: 65%;
+}
+.js{
+  width: 50%;
+}
+.jq{
+  width: 60%;
+}
+.react{
+  width: 10%;
 }
