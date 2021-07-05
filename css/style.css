@@ -111,7 +111,7 @@ body{
 .bar {
   display: block;
   background: white;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   height: 5px;
   overflow: hidden;
   margin: 20px 0;
@@ -144,7 +144,6 @@ body{
 
 .services-section{
   min-height: 700px;
-  /* background: blue; */
 }
 .services-section > h2{
   text-align: center;
@@ -158,4 +157,36 @@ body{
 
 .item{
   width: 400px;
+}
+
+
+
+.contact-form-section{
+  min-height: 700px;
+  margin-top: -150px;
+  background: #fafafa;
+}
+.contact-form-section h2{
+  text-align: center;
+  font-size: 40px;
+}
+.contact-form{
+  max-width: 600px;
+  margin: auto;
+
+}
+
+.item2{
+  display: block;
+  width: 100%;
+  margin-top: 30px;
+  font-size: 18px;
+  padding: 10px 20px;
+}
+
+
+footer p{
+  text-align: center;
+  margin-top: 40px;
+  font-weight: bold;
 }
